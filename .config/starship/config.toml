@@ -1,0 +1,13 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$python$directory$character"
+
+add_newline = true
+
+[directory]
+truncation_length = 1
+read_only = ""
+
+[python]
+format = '[(\($virtualenv\) )]($style)'
+style = "blue italic"
